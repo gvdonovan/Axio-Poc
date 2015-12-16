@@ -1,0 +1,29 @@
+{
+  "name": "poc",
+  "version": "1.0.0",
+  "description": "Proof of Concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvdonovan/Axio-Poc.git"
+  },
+  "author": "G.Donovan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvdonovan/Axio-Poc/issues"
+  },
+  "homepage": "https://github.com/gvdonovan/Axio-Poc#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-if": "^2.0.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-order": "^1.1.1",
+    "require-dir": "^0.3.0",
+    "wiredep": "^3.0.0"
+  },
+  "dependencies": {}
+}

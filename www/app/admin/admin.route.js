@@ -1,8 +1,8 @@
-(function () {
+(function() {
     'use strict';
 
     angular
-        .module('app.home')
+        .module('app.admin')
         .run(appRun);
 
     appRun.$inject = ['routerHelper'];
@@ -15,20 +15,20 @@
 
         var states = [
             {
-                state: 'home',
+                state: 'admin',
                 config: {
-                    url: '/',
-                    templateUrl: 'app/home/views/home.html',
-                    controller: 'HomeController',
+                    url: '/admin',
+                    templateUrl: 'app/admin/views/admin.html',
+                    controller: 'AdminController',
                     controllerAs: 'vm',
-                    title: 'Home',
+                    title: 'Admin',
                     settings: {
-                        group: 'home',
+                        group: 'admin',
                         top: true,
-                        nav: 1,
-                        content: '<i class="fa fa-home"></i> Home'
+                        nav: 2,
+                        content: '<i class="fa fa-wrench"></i> Admin'
                     }
-                },
+                }
             }
         ];
 

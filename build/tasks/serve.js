@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
+var modRewrite = require('connect-modrewrite');
 
 /**
  * Serve
@@ -19,13 +20,13 @@ gulp.task('serve', ['build'], function () {
             }
             */
 
-            /*
+
             middleware: [
               modRewrite([
                 '^([^.]+)$ /index.html [L]'
               ])
             ]
-            */
+
         }                
     });    
 });

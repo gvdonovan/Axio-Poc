@@ -18,6 +18,7 @@
   "homepage": "https://github.com/gvdonovan/Axio-Poc#readme",
   "devDependencies": {
     "browser-sync": "^2.10.1",
+    "connect-modrewrite": "^0.8.2",
     "gulp": "^3.9.0",
     "gulp-if": "^2.0.0",
     "gulp-inject": "^3.0.0",

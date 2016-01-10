@@ -15,7 +15,7 @@
             if (!$window.ga)
                 return;
 
-            $window.ga('Biff.send', 'pageview', { page: $state.current.name });
+            $window.ga('Biff.send', 'pageview', { page: $state.current.name, client: "Biff" });
         });
     }])
 })();
